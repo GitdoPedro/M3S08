@@ -1,0 +1,4 @@
+CREATE OR REPLACE VIEW minha_view AS
+SELECT ID
+FROM sua_tabela
+WITH READ ONLY;
